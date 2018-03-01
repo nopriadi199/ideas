@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="card card-body">
+            <img class="logo" src="/img/ikon.png">
+            <h3 class="text-center"> Account Access</h3>
+            <hr>
+            <h4 class="">
+              Forgot your password?
+            </h4>
+            <form action="/users/forgot" method="post">
+              <span class="help-block">
+                Email address you use to log in to your account
+                <br>
+                We'll send you an email with instructions to choose a new password.
+              </span>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Continue</button>
+                <div class="form-group">
+                  <a href="/users/forgot" class="pull-right">Login ?</a>
+            </form>
+        </div>
+    </div>
+</div>
